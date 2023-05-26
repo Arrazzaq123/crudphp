@@ -9,6 +9,7 @@ window.addEventListener('load', () => {
 
 	nameInput.addEventListener('change', (e) => {
 		localStorage.setItem('username', e.target.value);
+		
 	})
 
 	newTodoForm.addEventListener('submit', e => {
